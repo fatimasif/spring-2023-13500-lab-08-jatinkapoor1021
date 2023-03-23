@@ -3,7 +3,7 @@
 #include <string>
 #include <cmath>
 
-void invert_image(std::string file){
+void invert(std::string file){
     int height, width;
     int image[MAX_H][MAX_W];
     readImage(file, image, height, width);
@@ -15,7 +15,7 @@ void invert_image(std::string file){
     writeImage("taskA.pgm", image, height, width);
 }
 
-void invert_half_image(std::string file){
+void invert_half(std::string file){
     int height, width;
     int image[MAX_H][MAX_W];
     readImage(file, image, height, width);
