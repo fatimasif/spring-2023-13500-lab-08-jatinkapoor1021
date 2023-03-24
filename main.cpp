@@ -8,9 +8,9 @@ int main(){
   invert("inImage.pgm");
   invert_half("inImage.pgm");
   box_image("inImage.pgm");
-  frame_image("inImage.pgm");
-  scale_image("inImage.pgm");
-  pixelate_image("inImage.pgm");
+  line_image("inImage.pgm");
+  twice_image("inImage.pgm");
+  pixel_image("inImage.pgm");
 
   return 0;
 }

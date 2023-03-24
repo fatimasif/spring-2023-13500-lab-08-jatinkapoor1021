@@ -43,7 +43,7 @@ void box_image(std::string file){
     writeImage("taskC.pgm", image, height, width);	
 }
 
-void frame_image(std::string file){
+void line_image(std::string file){
     int height, width;
     int image[MAX_H][MAX_W];
     readImage(file, image, height, width);
@@ -59,7 +59,7 @@ void frame_image(std::string file){
     writeImage("taskD.pgm", image, height, width);		
 }
 
-void scale_image(std::string file){
+void twice_image(std::string file){
     int height, width;
     int image[MAX_H][MAX_W];
     int newimage[MAX_H][MAX_W];
@@ -75,7 +75,7 @@ void scale_image(std::string file){
     writeImage("taskE.pgm", newimage, 2*height, 2*width);
 }
 
-void pixelate_image(std::string file){
+void pixel_image(std::string file){
     int height, width;
     int image[MAX_H][MAX_W];
     int newimage[MAX_H][MAX_W];
