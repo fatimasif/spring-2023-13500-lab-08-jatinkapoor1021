@@ -1,4 +1,4 @@
-OBJECTS = main.o imageio.o funcs.o
+
 
 main: main.o imageio.o funcs.o
 	g++ -o main $(OBJECTS)
@@ -17,3 +17,7 @@ imageio.o: imageio.cpp imageio.h
 
 clean:
 	rm -f sample.o imageio.o funcs.o main.o
+
+
+
+	
