@@ -5,12 +5,12 @@
 int main(){
 
   
-  invert("inImage.pgm");
-  invert_half("inImage.pgm");
-  box_image("inImage.pgm");
-  line_image("inImage.pgm");
-  twice_image("inImage.pgm");
-  pixel_image("inImage.pgm");
+  invert("inImage.pgm");  // A
+  invert_half("inImage.pgm"); // B
+  box_image("inImage.pgm"); // C
+  line_image("inImage.pgm");  // D
+  twice_image("inImage.pgm"); // E
+  pixel_image("inImage.pgm"); // F
 
   return 0;
 }
